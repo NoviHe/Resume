@@ -12,13 +12,15 @@
 
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+  <link rel="stylesheet" href="css/style.css">
   <title>Novi Herlambang</title>
 </head>
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1">Portfolio</span>
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+    <span class="navbar-brand mb-0 h1">My Resume</span>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
@@ -28,13 +30,10 @@
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Dropdown link
+            More
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
@@ -59,7 +58,7 @@
   </section>
 
   <!-- About -->
-  <section class="about" id="about">
+  <section class="about pt-5" id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-9">
@@ -67,9 +66,12 @@
             <div class="col-md-12">
               <h1>About Me</h1>
               <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa laborum mollitia quos illo, labore,
-                maxime modi inventore atque quam placeat quidem, ullam laudantium tempore dolorem dolorum est cupiditate
-                non facilis?</p>
+              <p>Saya adalah seorang Pelajar Lulusan SMKN 1 PADAHERANG Jurusan Rekayasa Perangkat Lunak
+                (Software Engineering). Saya lahir di Ciamis, pada 26 September 2001. Saya sangat suka
+                dengan hal yang berbau teknologi, karena teknologi setiap detik selalu update dan baru.
+                Seperti halnya saya yang akan selalu mengupdate diri dan mempelajari hal hal baru untuk
+                menjadi yang lebih baik dan menjadi orang yang bisa memberikan manfaat, membantu orang
+                lain dan Berguna di masyarakat.</p>
             </div>
           </div>
         </div>
@@ -77,15 +79,88 @@
           <img src="img/profil2.png" alt="profil2" width="200px" class="rounded-circle">
         </div>
       </div>
+      <hr>
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <h4 class="text-center">Education</h4>
+          <hr>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SD Negeri 2 Ciganjeng
+              <span class="badge badge-dark badge-pill">2008 - 2014</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SMP Negeri 1 Padaherang
+              <span class="badge badge-dark badge-pill">2014 - 2017</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SMK Negeri 1 Padaherang (Software Engineering)
+              <span class="badge badge-dark badge-pill">2017 - 2020</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
   <!-- end About -->
 
-  <!-- portfolio -->
-  <section class="skils" id="skils">
-
+  <!-- Skils -->
+  <section class="skils pt-5 pb-5" id="skils">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Skils</h1>
+          <hr>
+          <div class="row" id="myskils"></div>
+        </div>
+      </div>
+    </div>
   </section>
-  <!-- end fortfolio -->
+  <!-- end Skils -->
+
+  <!-- PortFolio -->
+  <section class="portfolio pt-5 pb-5 justify-content-center" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>My Portfolio</h1>
+          <hr>
+          <div class="row" id="myportfolio"></div>
+
+          <a id="repo" href="#" target="_blank" class="btn btn-outline-secondary">See Other</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end PortFolio -->
+
+  <!-- PortFolio -->
+  <section class="portfolio pt-5 pb-5 justify-content-center" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>My Portfolio</h1>
+          <hr>
+          <div class="row" id="myportfolio"></div>
+
+          <a id="repo" href="#" target="_blank" class="btn btn-outline-secondary">See Other</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end PortFolio -->
+
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p align="center">&copy; Copyright 2020 Resume | Built By Novi Herlambang</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--akhir footer-->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -98,6 +173,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
